@@ -378,7 +378,7 @@ describe("ConnectReachability stale connector recovery", () => {
   );
 });
 
-describe("T3 Connect troubleshooting links", () => {
+describe("M3 Link troubleshooting links", () => {
   it("each section names a heading in the user guide", () => {
     const guide = NodeFS.readFileSync(
       new URL("../../../../docs/user/t3-connect-troubleshooting.md", import.meta.url),
